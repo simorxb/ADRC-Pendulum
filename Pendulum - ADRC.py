@@ -31,6 +31,13 @@ l3 = -(s_ESO)**3
 # b0 calculated from nominal mass (0.5 kg) and length (1 m)
 b0 = 1/(0.5*1**2)
 
+print("kp: ", kp)
+print("kd: ", kd)
+print("l1: ", l1)
+print("l2: ", l2)
+print("l3: ", l3)
+print("b0: ", b0)
+
 # Create array of mass values for robustness analysis
 m_V = [0.1, 0.5, 1.2]
 
